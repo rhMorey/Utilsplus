@@ -29,3 +29,23 @@ description: A plugin with some useful commands
     description: Vanish command
     permission-message: "§c§l(!) §cYou don't have access to this command."
     permission: admin.vanish
+  bc:
+    description: Broadcast command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.broadcast
+  de:
+    description: Debug command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.debug
+  whois:
+    description: Whois command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.whois
+  rl:
+    description: Reload command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.reload
+  ping:
+    description: Ping command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.ping
