@@ -1,5 +1,5 @@
 name: Utils
-version: '${project.version}'
+version: '1.0-SNAPSHOT'
 main: morey.utils.Main
 api-version: 1.18
 author: morey
@@ -49,27 +49,3 @@ description: A plugin with some useful commands
     description: Ping command
     permission-message: "§c§l(!) §cYou don't have access to this command."
     permission: admin.ping
-  msg:
-    description: Message command
-    permission-message: "§c§l(!) §cYou don't have access to this command."
-    permission: admin.msg
-  r:
-    description: Reply command
-    permission-message: "§c§l(!) §cYou don't have access to this command."
-    permission: admin.reply
-  tell:
-    description: Tell command
-    permission-message: "§c§l(!) §cYou don't have access to this command."
-    permission: admin.tell
-  m:
-    description: Message command
-    permission-message: "§c§l(!) §cYou don't have access to this command."
-    permission: admin.m
-  w:
-    description: Message command
-    permission-message: "§c§l(!) §cYou don't have access to this command."
-    permission: admin.w
-  whisper:
-    description: Message command
-    permission-message: "§c§l(!) §cYou don't have access to this command."
-    permission: admin.whisper

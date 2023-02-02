@@ -32,6 +32,12 @@ public final class Main extends JavaPlugin {
         Objects.requireNonNull(Bukkit.getPluginCommand("whois")).setExecutor(new WhoisCmds());
         Objects.requireNonNull(Bukkit.getPluginCommand("rl")).setExecutor(new ReloadCmds());
         Objects.requireNonNull(Bukkit.getPluginCommand("ping")).setExecutor(new PingCmds());
+        Objects.requireNonNull(Bukkit.getPluginCommand("msg")).setExecutor(new MsgCmds());
+        Objects.requireNonNull(Bukkit.getPluginCommand("w")).setExecutor(new MsgCmds());
+        Objects.requireNonNull(Bukkit.getPluginCommand("r")).setExecutor(new MsgCmds());
+        Objects.requireNonNull(Bukkit.getPluginCommand("whisper")).setExecutor(new MsgCmds());
+        Objects.requireNonNull(Bukkit.getPluginCommand("tell")).setExecutor(new MsgCmds());
+        Objects.requireNonNull(Bukkit.getPluginCommand("m")).setExecutor(new MsgCmds());
 
     }
 

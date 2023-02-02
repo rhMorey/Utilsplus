@@ -1,0 +1,10 @@
+morey\utils\commands\MsgCmds.class
+morey\utils\commands\WhoisCmds.class
+morey\utils\commands\DeCmds.class
+morey\utils\commands\BroadcastCmds.class
+morey\utils\commands\SpeedCmds.class
+morey\utils\commands\GamemodeCmds.class
+morey\utils\Main.class
+morey\utils\commands\PingCmds.class
+morey\utils\commands\VanishCmds.class
+morey\utils\commands\ReloadCmds.class

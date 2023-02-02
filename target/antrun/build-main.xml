@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy file="C:\Users\Shadow\IdeaProjects\Utils+\target/Utils.jar" todir="C:\Users\Shadow\Desktop\serveur 1.17\plugins"/>
+</target>
+</project>
