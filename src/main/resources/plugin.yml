@@ -1,0 +1,4 @@
+name: Utils
+version: '${project.version}'
+main: morey.utils.Main
+api-version: 1.18
