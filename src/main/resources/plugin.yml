@@ -2,3 +2,30 @@ name: Utils
 version: '${project.version}'
 main: morey.utils.Main
 api-version: 1.18
+author: morey
+description: A plugin with some useful commands
+
+1:
+  description: Gamemode command
+  permission-message: "§c§l(!) §cYou don't have access to this command."
+  permission: admin.gamemode
+  2:
+    description: Gamemode command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.gamemode
+  3:
+    description: Gamemode command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.gamemode
+  0:
+    description: Gamemode command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.gamemode
+  speed:
+    description: Speed command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.speed
+  v:
+    description: Vanish command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.vanish
