@@ -1,14 +1,14 @@
-name: Utils
+name: UtilsPlus
 version: '${project.version}'
 main: morey.utils.Main
 api-version: 1.18
 author: morey
 description: A plugin with some useful commands
-
-1:
-  description: Gamemode command
-  permission-message: "§c§l(!) §cYou don't have access to this command."
-  permission: admin.gamemode
+commands:
+  1:
+    description: Gamemode command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.gamemode
   2:
     description: Gamemode command
     permission-message: "§c§l(!) §cYou don't have access to this command."

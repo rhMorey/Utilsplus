@@ -4,11 +4,11 @@ main: morey.utils.Main
 api-version: 1.18
 author: morey
 description: A plugin with some useful commands
-
-1:
-  description: Gamemode command
-  permission-message: "§c§l(!) §cYou don't have access to this command."
-  permission: admin.gamemode
+commands:
+  1:
+    description: Gamemode command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.gamemode
   2:
     description: Gamemode command
     permission-message: "§c§l(!) §cYou don't have access to this command."
@@ -49,3 +49,27 @@ description: A plugin with some useful commands
     description: Ping command
     permission-message: "§c§l(!) §cYou don't have access to this command."
     permission: admin.ping
+  msg:
+    description: Message command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.msg
+  r:
+    description: Reply command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.reply
+  tell:
+    description: Tell command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.tell
+  m:
+    description: Message command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.m
+  w:
+    description: Message command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.w
+  whisper:
+    description: Message command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.whisper
