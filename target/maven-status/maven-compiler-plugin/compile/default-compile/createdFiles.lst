@@ -1,5 +1,6 @@
 morey\utils\commands\MsgCmds.class
 morey\utils\commands\WhoisCmds.class
+morey\utils\commands\DayCmds.class
 morey\utils\commands\DeCmds.class
 morey\utils\commands\BroadcastCmds.class
 morey\utils\commands\SpeedCmds.class

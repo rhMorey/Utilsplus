@@ -73,3 +73,11 @@ commands:
     description: Message command
     permission-message: "§c§l(!) §cYou don't have access to this command."
     permission: admin.whisper
+  day:
+    description: Day command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.day
+  night:
+    description: Night command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.night
