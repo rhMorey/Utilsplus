@@ -40,6 +40,7 @@ public final class Main extends JavaPlugin {
         Objects.requireNonNull(Bukkit.getPluginCommand("m")).setExecutor(new MsgCmds());
         Objects.requireNonNull(Bukkit.getPluginCommand("day")).setExecutor(new DayCmds());
         Objects.requireNonNull(Bukkit.getPluginCommand("night")).setExecutor(new DayCmds());
+        Objects.requireNonNull(Bukkit.getPluginCommand("armorstand")).setExecutor(new ArmorStandCmds());
 
     }
 

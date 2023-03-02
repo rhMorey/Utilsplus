@@ -1,7 +1,7 @@
 name: UtilsPlus
 version: '1.0-SNAPSHOT'
 main: morey.utils.Main
-api-version: 1.18
+api-version: 1.19
 author: morey
 description: A plugin with some useful commands
 commands:
@@ -81,3 +81,7 @@ commands:
     description: Night command
     permission-message: "§c§l(!) §cYou don't have access to this command."
     permission: admin.night
+  armorstand:
+    description: Armorstand command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.armorstand
