@@ -18,8 +18,22 @@
 *.zip
 *.tar.gz
 *.rar
-
+.idea/
+*.iml
+*.iws
+*.ipr
+target/
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
 .idea/vcs.xml
+
+# Fichiers générés par Maven
+target/
+
+# Fichiers spécifiques à IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
