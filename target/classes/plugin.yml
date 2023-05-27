@@ -85,3 +85,11 @@ commands:
     description: Armorstand command
     permission-message: "§c§l(!) §cYou don't have access to this command."
     permission: admin.armorstand
+  setspawn:
+    description: Setspawn command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.setspawn
+  spawn:
+    description: Spawn command
+    permission-message: "§c§l(!) §cYou don't have access to this command."
+    permission: admin.spawn
